@@ -9,13 +9,10 @@ While reviewing the data you notice a pattern among those who visit the companyâ
 ### Step 2: Plan your visuals
 Next it is time to refine the data and present the results of your analysis. Right now, you have a lot of data spread across several different tables, which isnâ€™t an ideal way to share your results with management and the marketing team. You will want to create a data visualization that explains your findings quickly and effectively to your target audience. Since you know your audience is sales oriented, you already know that the data visualization you use should:
 
-Show sales numbers over time
-
-Connect sales to location
-
-Show the relationship between sales and website use
-
-Show which customers fuel growth
+* Show sales numbers over time
+* Connect sales to location
+* Show the relationship between sales and website use
+* Show which customers fuel growth
 
 ### Step 3: Create your visuals
 Now that you have decided what kind of information and insights you want to display, it is time to start creating the actual visualizations. Keep in mind that creating the right visualization for a presentation or to share with stakeholders is a process. It involves trying different visualization formats and making adjustments until you get what you are looking for. In this case, a mix of different visuals will best communicate your findings and turn your analysis into the most compelling story for stakeholders. So, you can use the built-in chart capabilities in your spreadsheets to organize the data and create your visuals.

@@ -18,9 +18,9 @@ Next it is time to refine the data and present the results of your analysis. Rig
 Now that you have decided what kind of information and insights you want to display, it is time to start creating the actual visualizations. Keep in mind that creating the right visualization for a presentation or to share with stakeholders is a process. It involves trying different visualization formats and making adjustments until you get what you are looking for. In this case, a mix of different visuals will best communicate your findings and turn your analysis into the most compelling story for stakeholders. So, you can use the built-in chart capabilities in your spreadsheets to organize the data and create your visuals.
 
 
-### MATPLOTLIB GRAPHS AND CUSTOMIZATIONS 
+# MATPLOTLIB GRAPHS AND CUSTOMIZATIONS 
 
-# 1) plt.plot()
+### 1) plt.plot()
 * x: Data for the x-axis.
 * y: Data for the y-axis.
 * color: Line color ('r', 'g', etc.).
@@ -29,3 +29,22 @@ Now that you have decided what kind of information and insights you want to disp
 * marker: Marker style ('o', 's', '^', etc.).
 * label: Label for the legend.
 * plt.plot(x, y, color='blue', linestyle='--', linewidth=2, marker='o')
+
+### 2) plt.scatter()
+* x: Data for the x-axis.
+* y: Data for the y-axis.
+* color: Color of the points.
+* s: Size of the points.
+* alpha: Transparency of the points.
+* marker: Marker style.
+* label: Label for the legend.
+* plt.scatter(x, y, color='blue', s=50, alpha=0.6)
+
+### 3) plt.hist()
+* x: Data to plot.
+* bins: Number of bins (default is 10).
+* range: The lower and upper range of the bins.
+* density: If True, normalizes the histogram.
+* color: Color of the bars.
+* alpha: Transparency of the bars.
+* plt.hist(data, bins=20, color='green', alpha=0.7)

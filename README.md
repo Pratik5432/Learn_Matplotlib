@@ -22,13 +22,8 @@ Now that you have decided what kind of information and insights you want to disp
 
 #### Markers 
 marker = '.', ',', 'o', 'v', '^', '<', '>', 's', 'p', '*', 'h', 'H', '+', 'x', 'D', 'd', '1', '2', '3', '4', '8', '|', '_', 'tickleft', 'tickright', 'tickup', 'tickdown'
-
-#### Markersize
-markersize = 1, 2, 3, and so on    OR 
-ms = 1, 2, 3, and so on 
-
-#### Marker Color
-mec = 'r', 'b', 'g' , etc
+markersize = 1, 2, 3, and so on  OR  ms = 1, 2, 3, and so on  ##### Markersize
+mec = 'r', 'b', 'g' , etc  ##### Marker Color
 markerfacecolor = 'r', 'b', 'g' , etc
 
 #### Colors
@@ -36,12 +31,8 @@ color = 'blue', 'green', 'red', 'cyan', 'magenta', 'yellow', 'black', 'white', '
 
 #### Linestyle
 linestyle = '-', '--', '-.', ':'
-
-#### Line Color
-color or the shorter c = 'r', 'b', 'g' , etc
-
-#### Line Width
-linewidth or the shorter lw = 20, 10, 12
+color or the shorter c = 'r', 'b', 'g' , etc  ##### Line Color
+linewidth or the shorter lw = 20, 10, 12  ##### Line Width
 
 ### 1) plt.plot()
 * x: Data for the x-axis.

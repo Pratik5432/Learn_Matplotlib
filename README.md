@@ -18,7 +18,30 @@ Next it is time to refine the data and present the results of your analysis. Rig
 Now that you have decided what kind of information and insights you want to display, it is time to start creating the actual visualizations. Keep in mind that creating the right visualization for a presentation or to share with stakeholders is a process. It involves trying different visualization formats and making adjustments until you get what you are looking for. In this case, a mix of different visuals will best communicate your findings and turn your analysis into the most compelling story for stakeholders. So, you can use the built-in chart capabilities in your spreadsheets to organize the data and create your visuals.
 
 
-# MATPLOTLIB GRAPHS AND CUSTOMIZATIONS 
+# MATPLOTLIB GRAPHS AND CUSTOMIZATIONS
+
+#### Markers 
+marker = '.', ',', 'o', 'v', '^', '<', '>', 's', 'p', '*', 'h', 'H', '+', 'x', 'D', 'd', '1', '2', '3', '4', '8', '|', '_', 'tickleft', 'tickright', 'tickup', 'tickdown'
+
+#### Markersize
+markersize = 1, 2, 3, and so on    OR 
+ms = 1, 2, 3, and so on 
+
+#### Marker Color
+mec = 'r', 'b', 'g' , etc
+markerfacecolor = 'r', 'b', 'g' , etc
+
+#### Colors
+color = 'blue', 'green', 'red', 'cyan', 'magenta', 'yellow', 'black', 'white', 'orange', 'purple', 'brown', etc.
+
+#### Linestyle
+linestyle = '-', '--', '-.', ':'
+
+#### Line Color
+color or the shorter c = 'r', 'b', 'g' , etc
+
+#### Line Width
+linewidth or the shorter lw = 20, 10, 12
 
 ### 1) plt.plot()
 * x: Data for the x-axis.

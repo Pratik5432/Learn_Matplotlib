@@ -28,7 +28,7 @@ Now that you have decided what kind of information and insights you want to disp
 * linewidth: Width of the line.
 * marker: Marker style ('o', 's', '^', etc.).
 * label: Label for the legend.
-* plt.plot(x, y, color='blue', linestyle='--', linewidth=2, marker='o')
+* eg: plt.plot(x, y, color='blue', linestyle='--', linewidth=2, marker='o')
 
 ### 2) plt.scatter()
 * x: Data for the x-axis.
@@ -38,7 +38,7 @@ Now that you have decided what kind of information and insights you want to disp
 * alpha: Transparency of the points.
 * marker: Marker style.
 * label: Label for the legend.
-* plt.scatter(x, y, color='blue', s=50, alpha=0.6)
+* eg: plt.scatter(x, y, color='blue', s=50, alpha=0.6)
 
 ### 3) plt.hist()
 * x: Data to plot.
@@ -47,4 +47,24 @@ Now that you have decided what kind of information and insights you want to disp
 * density: If True, normalizes the histogram.
 * color: Color of the bars.
 * alpha: Transparency of the bars.
-* plt.hist(data, bins=20, color='green', alpha=0.7)
+* eg: plt.hist(data, bins=20, color='green', alpha=0.7)
+
+### 4) plt.bar()
+* x: Categories for the x-axis.
+* height: Heights of the bars.
+* width: Width of the bars.
+* color: Bar color.
+* edgecolor: Color of the bar borders.
+* align: How to align the bars ('center' or 'edge').
+* label: Label for the legend.
+* eg: plt.bar(x, height, width=0.8, color='red', edgecolor='black')
+
+### 5) plt.pie()
+* x: Values for each wedge.
+* labels: Labels for each wedge.
+* autopct: String to format the percentage (e.g., '%.1f%%').
+* colors: List of colors for each wedge.
+* explode: Fraction to separate the slices.
+* shadow: Whether to draw a shadow behind the pie.
+* eg: plt.pie(data, labels=categories, autopct='%1.1f%%', explode=[0.1, 0, 0])
+

@@ -21,9 +21,12 @@ Now that you have decided what kind of information and insights you want to disp
 # MATPLOTLIB GRAPHS AND CUSTOMIZATIONS
 
 #### Markers 
-marker = '.', ',', 'o', 'v', '^', '<', '>', 's', 'p', '*', 'h', 'H', '+', 'x', 'D', 'd', '1', '2', '3', '4', '8', '|', '_', 'tickleft', 'tickright', 'tickup', 'tickdown'
+marker = '.', ',', 'o', 'v', '^', '<', '>', 's', 'p', '*', 'h', 'H', '+', 'x', 'D', 'd', '1', '2', '3', '4', '8', '|', '_', 'tickleft', 'tickright', 'tickup', 'tickdown' 
+
 markersize = 1, 2, 3, and so on  OR  ms = 1, 2, 3, and so on  ##### Markersize
+
 mec = 'r', 'b', 'g' , etc  ##### Marker Color
+
 markerfacecolor = 'r', 'b', 'g' , etc
 
 #### Colors
@@ -31,8 +34,11 @@ color = 'blue', 'green', 'red', 'cyan', 'magenta', 'yellow', 'black', 'white', '
 
 #### Linestyle
 linestyle = '-', '--', '-.', ':'
+
 color or the shorter c = 'r', 'b', 'g' , etc  ##### Line Color
+
 linewidth or the shorter lw = 20, 10, 12  ##### Line Width
+
 
 ### 1) plt.plot()
 * x: Data for the x-axis.

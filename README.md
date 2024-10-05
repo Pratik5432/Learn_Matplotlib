@@ -101,3 +101,48 @@ linewidth or the shorter lw = 20, 10, 12   (Line Width)
 * linewidth: Thickness of the borderlines.
 * hatch: Fill patterns (e.g., '/', '-', '.')
 * eg: plt.stackplot(x, y1, y2, y3, labels=['A', 'B', 'C'], colors=['red', 'green', 'blue'], alpha=0.6, edgecolor='black', linewidth=1, hatch='/', baseline='zero')
+
+### 7) plt.axvline()
+* x: The x-coordinate where the vertical line will be drawn.
+* ymin: The starting point of the vertical line along the y-axis (0 to 1, relative to the y-axis).
+* ymax: The ending point of the vertical line along the y-axis (0 to 1, relative to the y-axis).
+* color: The color of the vertical line (e.g., 'red', 'blue').
+* linestyle: The style of the line (e.g., '-', '--', ':').
+* linewidth: The width of the vertical line.
+* label: A label for the vertical line, useful for legends
+* eg: plt.axvline(x=3, color='red', linestyle='--', linewidth=2, label='x = 3')
+
+### 8) plt.fill_between()
+* x: The x-coordinates for which the area will be filled.
+* y1: The y-values defining the lower boundary of the filled area.
+* y2: The y-values defining the upper boundary of the filled area.
+* where: A condition to specify where the fill should occur (optional).
+* color: The color of the filled area (e.g., 'blue', 'green').
+* alpha: The transparency level of the filled area (0.0 to 1.0).
+* label: A label for the filled area, useful for legends.
+* eg: plt.fill_between(x, y1, y2, color='blue', alpha=0.3, label='Area between curves')
+
+### 9) plt.stackplot()
+* x: Locations of the x-values (shared for all datasets).
+* y1, y2, …, yn: Data sequences representing the stacked areas (multiple y-values for each dataset).
+* labels: Labels for each dataset, used for creating a legend.
+* colors: Colors for each stacked area.
+* alpha: Transparency level for the stacked areas (0.0 to 1.0).
+* baseline: Determines the position of the baseline ('zero', 'sym', 'wiggle', 'weighted_wiggle').
+* edgecolor: Color of the borderlines around each stacked area.
+* linewidth: Thickness of the borderlines.
+* hatch: Fill patterns (e.g., '/', '-', '.')
+* eg:
+import matplotlib.pyplot as plt
+import numpy as np
+x = np.arange(1, 6)  # X values
+y1 = [2, 3, 4, 5, 6]  # Data for stack 1
+y2 = [1, 2, 3, 4, 5]  # Data for stack 2
+y3 = [2, 3, 3, 3, 2]  # Data for stack 3
+fig, ax = plt.subplots()
+ax.stackplot(x, y1, y2, y3, labels=['A', 'B', 'C'], colors=['red', 'green', 'blue'], alpha=0.6, edgecolor='black', linewidth=1, hatch='/', baseline='zero')
+ax.legend(loc='upper left')
+ax.set_title('Stacked Area Plot Example')
+ax.set_xlabel('X-axis')
+ax.set_ylabel('Y-axis')
+plt.show()

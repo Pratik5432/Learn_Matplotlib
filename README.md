@@ -133,16 +133,17 @@ linewidth or the shorter lw = 20, 10, 12   (Line Width)
 * linewidth: Thickness of the borderlines.
 * hatch: Fill patterns (e.g., '/', '-', '.')
 * eg:
-import matplotlib.pyplot as plt
-import numpy as np
-x = np.arange(1, 6)  # X values
-y1 = [2, 3, 4, 5, 6]  # Data for stack 1
-y2 = [1, 2, 3, 4, 5]  # Data for stack 2
-y3 = [2, 3, 3, 3, 2]  # Data for stack 3
-fig, ax = plt.subplots()
-ax.stackplot(x, y1, y2, y3, labels=['A', 'B', 'C'], colors=['red', 'green', 'blue'], alpha=0.6, edgecolor='black', linewidth=1, hatch='/', baseline='zero')
-ax.legend(loc='upper left')
-ax.set_title('Stacked Area Plot Example')
-ax.set_xlabel('X-axis')
-ax.set_ylabel('Y-axis')
-plt.show()
+
+import matplotlib.pyplot as plt 
+import numpy as np 
+x = np.arange(1, 6)  # X values 
+y1 = [2, 3, 4, 5, 6]  # Data for stack 1 
+y2 = [1, 2, 3, 4, 5]  # Data for stack 2 
+y3 = [2, 3, 3, 3, 2]  # Data for stack 3 
+fig, ax = plt.subplots() 
+ax.stackplot(x, y1, y2, y3, labels=['A', 'B', 'C'], colors=['red', 'green', 'blue'], alpha=0.6, edgecolor='black', linewidth=1, hatch='/', baseline='zero') 
+ax.legend(loc='upper left') 
+ax.set_title('Stacked Area Plot Example') 
+ax.set_xlabel('X-axis') 
+ax.set_ylabel('Y-axis') 
+plt.show() 

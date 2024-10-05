@@ -58,6 +58,8 @@ linewidth or the shorter lw = 20, 10, 12   (Line Width)
 * alpha: Transparency of the points.
 * marker: Marker style.
 * label: Label for the legend.
+* plt.xscale('log') : change of scale because of skewness of data       
+* plt.yscale('log') : change of scale because of skewness of data  
 * eg: plt.scatter(x, y, color='blue', s=50, alpha=0.6)
 
 ### 3) plt.hist()

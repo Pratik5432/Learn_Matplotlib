@@ -90,3 +90,14 @@ linewidth or the shorter lw = 20, 10, 12   (Line Width)
 * shadow: Whether to draw a shadow behind the pie.
 * eg: plt.pie(data, labels=categories, autopct='%1.1f%%', explode=[0.1, 0, 0])
 
+### 6) plt.stackplot()
+* x: Locations of the x-values (shared for all datasets).
+* y1, y2, …, yn: Data sequences representing the stacked areas (multiple y-values for each dataset).
+* labels: Labels for each dataset, used for creating a legend.
+* colors: Colors for each stacked area.
+* alpha: Transparency level for the stacked areas (0.0 to 1.0).
+* baseline: Determines the position of the baseline ('zero', 'sym', 'wiggle', 'weighted_wiggle').
+* edgecolor: Color of the borderlines around each stacked area.
+* linewidth: Thickness of the borderlines.
+* hatch: Fill patterns (e.g., '/', '-', '.')
+* eg: plt.stackplot(x, y1, y2, y3, labels=['A', 'B', 'C'], colors=['red', 'green', 'blue'], alpha=0.6, edgecolor='black', linewidth=1, hatch='/', baseline='zero')

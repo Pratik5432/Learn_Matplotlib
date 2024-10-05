@@ -84,7 +84,7 @@ linewidth or the shorter lw = 20, 10, 12   (Line Width)
 * labels: Labels for each wedge.
 * autopct: String to format the percentage (e.g., '%.1f%%').
 * colors: List of colors for each wedge.
-* explode: Fraction to separate the slices.
+* explode: Fraction to separate the slices. For eg: [0, 0, 0, 0.1, 0]; if you want 4th element to explode from the pie.
 * shadow: Whether to draw a shadow behind the pie.
 * eg: plt.pie(data, labels=categories, autopct='%1.1f%%', explode=[0.1, 0, 0])
 

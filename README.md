@@ -82,7 +82,7 @@ linewidth or the shorter lw = 20, 10, 12   (Line Width)
 ### 5) plt.pie()
 * x: Values for each wedge.
 * labels: Labels for each wedge.
-* autopct: String to format the percentage (e.g., '%.1f%%').
+* autopct: String to format the percentage (e.g., '%.1f%%' , '%1.1f%%').
 * colors: List of colors for each wedge.
 * explode: Fraction to separate the slices. For eg: [0, 0, 0, 0.1, 0]; if you want 4th element to explode from the pie.
 * shadow: Whether to draw a shadow behind the pie.
